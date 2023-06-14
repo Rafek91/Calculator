@@ -1,9 +1,10 @@
 #container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 50px;
 }
 
 #table {
@@ -22,6 +23,7 @@
   text-align: right;
   font-size: 20px;
   font-weight: bold;
+  background-color: white;
 }
 
 #calc-clear {
@@ -51,6 +53,8 @@ td:hover {
 #history-container {
   margin-left: 20px;
   text-align: left;
-  margin-top: -320px;
 }
 
+#history-container h1 {
+  margin-top: 0px;
+}
