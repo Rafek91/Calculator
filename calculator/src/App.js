@@ -13,7 +13,6 @@ function App() {
     if(!checkCondition){
       setInput(input+character)
     }
-    return (input+character)
   }
 
   const calculationFunction = (inputString) => {
